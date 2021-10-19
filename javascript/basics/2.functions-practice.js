@@ -28,13 +28,59 @@
 
 //TODO set the function to sum the two value
 //TODO set the function to do the square of the value
+//
+// function getSquareValue(value){
+//     var functionReturnValue = value * value;
+//     console.log('function return value is ==>', functionReturnValue);
+//     return functionReturnValue;
+// }
+//
+// let returnValue = getSquareValue(10);
+// console.log('Return value is ==>', returnValue);
+//
+//
+// //TODO set the function to sum the two values
+// //TODO set the function to find the area of circle
+//
+// function getSumValue(value1,value2) {
+//     var functionReturnValue = (value1+value2);
+//     console.log(functionReturnValue);
+//     return functionReturnValue;
+// }
+// let returnValueOfSquare = getSumValue(100,150);
+// console.log(returnValueOfSquare);
+//
+function getDivision(value1, value2) {
+    var functionreturnValue = (value1 / value2);
+    console.log(functionreturnValue);
+    return functionreturnValue;
+}
 
-var car;
-car="swift"
-console.log(car);
+let returnValueofDivision = getDivision(50, 10);
+console.log(returnValueofDivision);
 
+function getPercentage(value1, value2) {
+    var functionreturnValue = (value1 % value2);
+    console.log(functionreturnValue);
+    return functionreturnValue;
+}
 
-function sumValue(value1,value2) {
-    console.log()
+let returnValueOfPercentage = getPercentage(2500, 5);
+console.log(returnValueOfPercentage);
+
+function getSubtract(value1, value2) {
+    var functionOfReturnValue = (value2 - value1);
+    console.log(functionOfReturnValue);
+    return
 
 }
+
+
+// function getCircleArea(radius) {
+//     var area = 3.14*radius*radius;
+//     console.log(area);
+//     return area;
+// }
+// let returnValueofArea = getCircleArea(10);
+// console.log(returnValueofArea);
+
